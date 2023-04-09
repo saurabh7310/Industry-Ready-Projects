@@ -1,0 +1,49 @@
+                    Industry Ready Project
+            Pipeline
+Step-1
+    1. Create a file Data_Dump.py
+    2. Load Dataset to Database.
+
+Step-2
+    1. Create Setup.py file
+    2. Define Function as get_requirements and it will return a List
+
+Step-3 
+    1. Create a folder with project name like [sensor]
+    2. Create Sub Folders for the Project Execution
+            - Components
+                1. __init__.py
+                2. Data_Ingestion.py
+                3. Data_Transformation.py
+                4. Data_Validation.py
+                5. Model_Evaluation.py
+                6. Model_Pusher.py
+                7. Model_Trainer.py
+
+            - Entity
+                1. __init__.py
+                2. Artifact_Entity.py
+                3. Config_Entity.py
+
+            - Pipeline
+                1. __init__.py
+                2. Training_Pipeline.py
+
+            - Utils
+                1. __init__.py
+
+            - __init__.py
+            - Config.py
+            - Exception.py
+            - Logger.py
+
+Step-4
+    1. Define Logging.
+    2. Define Exception
+
+Step-5 [sensor/Utils/__init__.py]
+    1. Define a function get_collection_as_dataframe.
+    2. Write code in Try and except block.
+    
+
+clas aps fault detection 2 time 2:20 
