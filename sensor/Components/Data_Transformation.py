@@ -18,6 +18,7 @@ class DataTransformation:
     def __init__(self, data_transformation_config: Config_Entity.DataTransformationsConfig,
                  data_ingestion_artifact: Artifact_Entity.DataIngestionArtifact):
         try:
+            logging.info(f"{'>>'*20} Data Transformation {'<<'*20}")
             logging.info(f"Declaring variable for Data Transformation.")
 
             self.data_transformation_config = data_transformation_config

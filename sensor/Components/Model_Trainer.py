@@ -17,6 +17,7 @@ class ModelTrainer:
     def __init__(self, model_trainer_config:Config_Entity.ModelTrainerConfig,
                  data_transformation_artifact:Artifact_Entity.DataTransformationArtifact):
         try:
+            logging.info(f"{'>>'*20} Model Training {'<<'*20}")
             self.model_trainer_config = model_trainer_config
             self.data_transformation_artifact = data_transformation_artifact
         except Exception as e:

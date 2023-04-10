@@ -46,7 +46,7 @@ Step-5 [sensor/Utils/__init__.py]
     2. Write code in Try and except block.
     
 
-clas aps fault detection 2 time 2:20 
+clas aps fault detection 2 class completed
 
 How to Connect Visual Studio Code to GitHub
 
